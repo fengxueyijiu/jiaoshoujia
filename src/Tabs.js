@@ -11,9 +11,7 @@ const styles = {
   },
 };
 
-function handleActive(tab) {
-  alert(`A tab with this route property ${tab.props['data-route']} was activated.`);
-}
+
 
 const TabsExampleSimple = () => (
   <Tabs>
@@ -40,7 +38,6 @@ const TabsExampleSimple = () => (
     <Tab
       label="onActive"
       data-route="/home"
-      onActive={handleActive}
     >
       <div>
         <h2 style={styles.headline}>Tab Three</h2>
