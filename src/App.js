@@ -42,7 +42,8 @@
 
 import React from 'react';
 import Next from './Next';
-import AppBar from './AppBar'
+import AppBar from './AppBar';
+import Tabs from './Tabs';
 import RaisedButton from 'material-ui/RaisedButton';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import CircularProgress from 'material-ui/CircularProgress';
@@ -85,6 +86,7 @@ class App extends React.Component {
           <CircularProgress />
           <Next />
           <AppBar />
+          <Tabs />
       </div>
     )
   }
